@@ -15,6 +15,6 @@ while not wlan.isconnected():
 
 #In case the WiFi connection is successful, we want the device to print its IP Configuration.
 print(wlan.ifconfig())
-
+#The output shall be of this template: # (ip, subnet_mask, gateway, DNS_server)
 
 #Make sure the WiFi SSID (WiFi/Hotspot name) and Password is typed exactly the same as they are case-sensitive.  
