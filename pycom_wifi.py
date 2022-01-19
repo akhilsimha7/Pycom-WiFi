@@ -7,7 +7,7 @@ import time
 wlan = network.WLAN(mode=network.WLAN.STA)
 
 #We now have to connect to the WiFi using the WiFi name that is the SSID and the password. WLAN.WPA2 is the Wi-Fi Protected Access II security which is the password of the WiFi Network.
-wlan.connect('UserHotSpot', auth=(network.WLAN.WPA2, 'test_pycom'))
+wlan.connect('WiFiName', auth=(network.WLAN.WPA2, 'WifiPassword'))
 
 #In case the WiFi is not able to connect, the device is asked to sleep for a duration of 50ms.
 while not wlan.isconnected():
