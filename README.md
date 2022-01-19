@@ -10,5 +10,4 @@ Source Code Editor: ATOM  (https://atom.io/)
 
 Sample Code:
 
-
-![image](https://user-images.githubusercontent.com/9052405/150134207-c1622af7-d452-429e-93e0-7a9a3334437c.png)
+![image](https://user-images.githubusercontent.com/9052405/150134332-2fd4ec74-3cce-47fd-b7f8-ee29d0bc6846.png)
